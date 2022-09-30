@@ -1,0 +1,30 @@
+body{
+    background-color: darkkhaki;
+    height:500px;
+    width:35%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: baseline;
+
+}
+input{
+    width:80%;
+    padding:5px;
+    margin: 5px;
+    text-align:center;
+}
+button{
+    margin:20px;
+    padding:20px;
+    background-color: cadetblue;
+    color:azure;
+    flex-grow: 2;
+    font-size:large;
+    
+}
+
+button:hover {
+    background-color: #ed5454;
+  }
